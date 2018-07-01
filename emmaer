@@ -1,0 +1,762 @@
+    1  suo apt-get remove thundebird
+    2  sudo apt-get remove thunderbird
+    3  sudo apt-get remove amazon
+    4  sudo apt-get remove browser
+    5  sudo apt-get update && upgrade
+    6  sudo apt-get upgrade
+    7  git
+    8  bash ./cli-software.sh 
+    9  git
+   10  htop -h
+   11  htop
+   12  shutdown -h 0
+   13  sudo rm -r the\ revenge/
+   14  sudo su
+   15  sudo rm -r the\ revenge/
+   16  sudo rm  the\ revenge/
+   17  sudo rm -rf the\ revenge/
+   18  mv ./*.mp3 /home/emmaxy/Music/
+   19  mv ./*.m4a /home/emmaxy/Music/
+   20  mv ./*.mp4 /home/emmaxy/Videos/
+   21  ps -u emma
+   22  ps -u emmaxy
+   23  ps -u emmaxy > emmap1
+   24  ps -u emmaxy > emmap2
+   25  man diff
+   26  diff emmap1 emmap2
+   27  seahorse 
+   28  totem
+   29  sudo apt-get remove totem
+   30  sudo apt-get autoremove 
+   31  sudo apt-get autoclean
+   32  totem
+   33  exit
+   34  clisp
+   35  sudo apt install clisp
+   36  sudo apt-get install emacs
+   37  sudo apt-get install sbcl
+   38  sudo apt-get install slime
+   39  sudo rm index.html 
+   40  sudo cat index.html
+   41  sudo index.html
+   42  sudo cat index
+   43  cat index
+   44  gedit /etc/apache2/sites-available/example.com.conf
+   45  cd /etc/
+   46  cd apache2/
+   47  ls
+   48  gedit apache2.conf 
+   49  sudo apt-get instal guake
+   50  sudo apt-get install guake
+   51  php -v
+   52  php -version
+   53  cd Documents/tutorial/
+   54  javac compute\Compute.java compute\Task.java
+   55  sudo ln -s /home/emmaxy/htdocs/ /var/www/html/
+   56  sudo ln -s /home/emmaxy/htdocs/ /var/www/
+   57  sudo ln -s /home/emmaxy/htdocs/ /var/www/html/
+   58  sudo rm htdocs
+   59  cd ..
+   60  sudo rm htdocs
+   61  ls
+   62  sudo apt-get install wireshark
+   63  git
+   64  sudo apt-get install composer 
+   65  sudo apt update
+   66  sudo apt install apache2
+   67  sudo ufw app list
+   68  sudo ufw app info "Apache Full"
+   69  sudo ufw allow in "Apache Full"
+   70  sudo apt install mysql-server
+   71  sudo apt install default-jdk            
+   72  javac
+   73  sudo mysql_secure_installation
+   74  sudo mysql
+   75  sudo mysql_secure_installation
+   76  CREATE USER 'emma'@'localhost' IDENTIFIED BY ''; 
+   77  sudo mysql
+   78  sudo apt remove mysql*
+   79  sudo apt-get autoremove
+   80  sudo apt-get autoclean
+   81  sudo apt install mysql-server
+   82  sudo mysql
+   83  sudo mysql_secure_installation
+   84  ls
+   85  cd tutorial/
+   86  ls
+   87  cd Doc
+   88  cd Documents/
+   89  cd tutorial/
+   90  ls
+   91  javac compute\Compute.java compute\Task.java
+   92  javac compute\ComputeEngine.java compute\ComputePi.java
+   93  javac tutoriale\ComputeEngine.java tutorial\ComputePi.java
+   94  ls
+   95  cd ..
+   96  javac tutoriale\ComputeEngine.java tutorial\ComputePi.java
+   97  javac tutorial\ComputeEngine.java tutorial\ComputePi.java
+   98  ls ./tutorial/
+   99  javac tutorial/ComputeEngine.java tutorial/ComputePi.java
+  100  javac compute/Compute.java compute/Task.java
+  101  javac tutorial/Compute.java tutorial/Task.java
+  102  jar cvf compute.jar compute/*.class
+  103  jar cvf compute.jar tutorial/*.class
+  104  javac -cp /home/ann/public_html/classes/compute.jar
+  105  javac -cp /home/ann/public_html/classes/compute.jar
+  106  javac -cp /home/ann/public_html/classes/compute.jar    engine/ComputeEngine.java
+  107  javac -cp /hocompute.jar tutorial/ComputeEngine.java
+  108  javac -cp /home/emmaxy/htdocs/compute.jar tutorial/ComputeEngine.java
+  109  sudo mysql
+  110  sudo apt install php libapache2-mod-php php-mysql
+  111  sudo nano /etc/apache2/mods-enabled/dir.conf
+  112  sudo gedit /etc/apache2/mods-enabled/dir.conf
+  113  sudo systemctl restart apache2
+  114  sudo systemctl status apache2
+  115  apt show package_name
+  116  apt show php
+  117  apt show php-cli
+  118  sudo apt install php-cli
+  119  sudo apt-get install phpmyadmin php-mbstring php-gettext
+  120  sudo phpenmod mcrypt
+  121  sudo phpenmod mbstring
+  122  sudo systemctl restart apache2
+  123  sudo nano /etc/apache2/conf-available/phpmyadmin.conf
+  124  sudo gedit /etc/apache2/conf-available/phpmyadmin.conf
+  125  gedit /etc/phpmyadmin/config.inc.php
+  126  sudo gedit /etc/phpmyadmin/config.inc.php
+  127  composer
+  128  composer global require "laravel/installer"
+  129  ls -al
+  130  sudo apt-get install vlc
+  131  sudo apt-get install mplayer
+  132  javac -cp ./compute.jar  engine/ComputeEngine.java 
+  133  javac -cp ./tutorial/Compute  engine/ComputeEngine.java 
+  134  javac Hello.java 
+  135  rmic Hello
+  136  javac HelloClient.java 
+  137  javac HelloInterface.java 
+  138  javac HelloClient.java 
+  139  javac HelloServer.java 
+  140  javac -c ./HelloInterface HelloServer.java 
+  141  javac -cp ./HelloInterface HelloServer.java 
+  142  javac -cp ./HelloInterface ./Hello HelloServer.java 
+  143  javac -cp ./Hello HelloServer.java 
+  144  javac -cp ./Hello_Stub  HelloServer.java 
+  145  jar cvf compute.jar compute/*.class
+  146  jar cvf compute.jar ./*.class
+  147  javac -cp ./compute.jar HelloServer.java 
+  148  javac -cp ./compute.jar HelloClient.java 
+  149  rmiregistry
+  150  java HelloClient
+  151  java HelloServer
+  152  cd ..
+  153  javac Hello.java HelloClient.java 
+  154  rmi Hello
+  155  rmic Hello
+  156  jar cvf hello ./*.class
+  157  javac HelloClient.java HelloServer.java 
+  158  rmiregistry
+  159  javac -cp ./hello.jar HelloClient.java HelloServer.java 
+  160  javac Hello.java HelloClient.java 
+  161  rmic Hello
+  162  jar cvf hello.jar ./*.class
+  163  javac HelloClient.java HelloServer.java 
+  164  rmiregistry
+  165  javac H-cp ./hello.jar HelloClient.java HelloServer.java 
+  166  javac -cp ./hello.jar HelloClient.java HelloServer.java 
+  167  javac Hello.java HelloClient.java 
+  168  rmiregistry
+  169  javac Hello.java HelloClient.java 
+  170  javac HelloClient.java  HelloServer.java 
+  171  rmiregistry
+  172  java HelloServer 
+  173  cd ..
+  174  java HelloServer 
+  175  cd rmi/
+  176  java HelloServer 
+  177  .profile
+  178  java HelloServer 
+  179  java HelloClient 
+  180  cd Desktop/rmi/
+  181  java HelloClient 
+  182  cd Desktop/rmi/
+  183  java HelloServer 
+  184  cd Desktop/rmi/
+  185  rmiregistry
+  186  cd Desktop/rmi/
+  187  java HelloServer 
+  188  cd Desktop/rmi/
+  189  ls
+  190  javac Hello.java 
+  191  javac hello.java 
+  192  mysql -uemma -p
+  193  mysql -uroot -p
+  194  sudo mysql
+  195  exit
+  196  cd VSCode-linux-x64/
+  197  code
+  198  bash ./code 
+  199  code
+  200  sudo snap install vscode
+  201  cd
+  202  cd htdocs/
+  203  ls
+  204  mkdir fyp
+  205  git init
+  206  git clone https://github.com/emma255/Manehmos2.git
+  207  php artisan serve
+  208  cd Manehmos2/
+  209  php artisan serve
+  210  composer update
+  211  php artisan serve
+  212  exit
+  213  cd Manehmos2/
+  214  php artisan serve
+  215  sudo apt-get install composer
+  216  sudo apt-get upgrade composer
+  217  sudo bash ./code_1.24.0-1528306776_amd64.deb 
+  218  sudo ./code_1.24.0-1528306776_amd64.deb 
+  219  sudo apt-get install ./code_1.24.0-1528306776_amd64.deb 
+  220  sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+  221  mysql -uemma -p
+  222  sudo mysql
+  223  mysql -uroot -p
+  224  sudo mysql
+  225  CREATE USER 'emma'@'localhost' IDENTIFIED BY '';
+  226  sudo mysql
+  227  sudo mysql_install_db
+  228  sudo mysql
+  229  sudo /usr/bin/mysql_secure_installation
+  230  mysql -uroot -p
+  231  sudo mysql
+  232  sudo apt-get purge mysql*
+  233  sudo apt-get remove mysql*
+  234  sudo apt-get autoore,ove;
+  235  sudo apt-get autoremove;
+  236  sudo apt-get autocleean;
+  237  sudo apt-get autoclean;
+  238  apt-get -y install mysql-server mysql-client
+  239  php artisan serve
+  240  composer install
+  241  composer dump-autoload
+  242  php artisan serve
+  243  gedit /etc/sysctl.conf
+  244  sudo gedit /etc/sysctl.conf
+  245  sudo sysctl -p
+  246  php artisan serve
+  247  cd Manehmos2/
+  248  php artisan serve
+  249  sudo apt-get -y install mysql-server mysql-client
+  250  sudo apt-get autoremove;
+  251  sudo apt-get autoclean;
+  252  mysql -uroot -p
+  253  sudo mysql
+  254  mysql -uemma -p
+  255  mysql -u root -p
+  256  sudo mysql_install_db
+  257  sudo /usr/bin/mysql_secure_installation
+  258  mysql -u root -p
+  259  mysql -uemma -p
+  260  apt-get -y install mariadb-server mariadb-client
+  261  sudo apt-get -y install mariadb-server mariadb-client
+  262  mysql -uemma -p
+  263  sudo mysql
+  264  mysql -uemma -p
+  265  sudo apt-get purge mysql*
+  266  sudo apt-get autoremove;
+  267  sudo apt-get autoclean;
+  268  sudo apt-get -y install mysql-server mysql-client
+  269  sudo apt-get autoremove;
+  270  sudo apt-get autoclean;
+  271  sudo mysql
+  272  mysql -uemma -p
+  273  php artisan serve
+  274  git init
+  275  git push origin master
+  276  git pull origin master
+  277  git diff
+  278  git config --global user.name “[emma255]”
+  279  git config --global user.email “[aemmanuel199@gmail.com”
+  280  git pull origin master
+  281  php artisan migrate
+  282  history > bruuu
+  283  sudo ln -s /run/user/1000/gvfs/google-drive:host=gmail.com,user=mtasiwaemma/project /var/www/html/
+  284  sudo ln -s /run/user/1000/gvfs/google-drive:host=gmail.com,user=mtasiwaemma/fyp /home/emmaxy/htdocs/fyp/
+  285  php artisan serve
+  286  composer global require squizlabs/php_codesniffer
+  287  php artisan serve
+  288  git push origin master
+  289  php artisan serve
+  290  php artisan migrate:refresh
+  291  php artisan serve
+  292  php artisan migrate
+  293  php artisan migrate --stage 1
+  294  php artisan migrate help
+  295  php artisan migrate:help
+  296  php artisan migrate:reset 1
+  297  php artisan help migrate
+  298  php artisan migrate --step 1
+  299  php artisan migrate --step=1
+  300  php artisan migrate
+  301  mysql -uemma -p
+  302  php artisan serve
+  303  php artisan make:mail welcome
+  304  php artisan make:mail SendCredentials
+  305  php artisan make:mail SendDetails
+  306  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  307  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  308  echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  309  sudo apt update && sudo apt install sublime-text
+  310  sudo apt purge sublime-text
+  311  sudo apt autoremove
+  312  sudo apt-get autoremove
+  313  sudo apt-get autoclean l
+  314  sudo apt-get autoclean
+  315  yaourt albert
+  316  sudo apt-get install albert
+  317  wget -nv -O Release.key   https://build.opensuse.org/projects/home:manuelschneid3r/public_key
+  318  apt-key add - < Release.key
+  319  sudo apt-key add - < Release.key
+  320  apt-get update
+  321  sudo apt-get update
+  322  yaourt albert
+  323  sudo add-apt-repository ppa:nilarimogard/webupd8
+  324  sudo apt-get update
+  325  sudo apt-get install albert
+  326  sudo apt-get update
+  327  sudo apt-get install albert
+  328  sudo add-apt-repository ppa:nilarimogard/webupd8
+  329  sudo apt-get update
+  330  sudo apt-get install albert
+  331  albert 
+  332  php artisan serve
+  333  mysql -uemma -p
+  334  git push origin master
+  335  mailspring 
+  336  php artisan serve
+  337  mv ./*.mp3 /home/emmaxy/Music/
+  338  mv ./*.mp4 /home/emmaxy/Videos/
+  339  fuser -k 8080/tcp
+  340  php artisan serve
+  341  php artisan tinker
+  342  git push origin master
+  343  composer install --optimize-autoloader --no-dev
+  344  composer require nexmo/client
+  345  php artisan tinker
+  346  php artisan serve
+  347  mplayer -playlist -shuffle ./*.*
+  348  mplayer -playlist ./*.*
+  349  mplayer ./*.*
+  350  php artisan serve
+  351  git push origin master
+  352  shutdown -h now
+  353  php artisan serve
+  354  php artisan r:l
+  355  php artisan tinker
+  356  php artisan serve
+  357  mysql -uemma -p
+  358  exit
+  359  mysql -uroot -p
+  360  sudo mysql
+  361  exit
+  362  mysql -uemma -p
+  363  git push origin master
+  364  php artisan tinker
+  365  git push origin master
+  366  php artisan make:migration mothers
+  367  php artisan make:model mothers
+  368  php artisan make:model Watoto -m
+  369  php artisan migrate
+  370  php artisan make:model MahudhurioAwali -m
+  371  php artisan migrate
+  372  cd ..
+  373  mysql -uemma -p
+  374  htop
+  375  htop -h
+  376  man htop
+  377  help htop
+  378  man htop
+  379  php artisan serve
+  380  php artisan -version
+  381  php artisan --version
+  382  php artisan migrate
+  383  php artisn tinker
+  384  php artisan tinker
+  385  DB::table('postnatals as P')->join('register13s as R', 'P.namba_ya_kadi_RCH4','=', 'R.Namba_ya_kadi')->whereRaw('EXTRACT(MONTH FROM tarehe_ya_hudhurio)', "
+  386  EXTRACT(MONTH FROM '2018-06-12')")->groupBy('P.id')->having(DB::raw('count(DISTINCT R.hudhurio)'),'>',1)->having(DATEDIFF(P.tarehe_ya_kujifungua,P.tarehe_ya_kuzaliwa), '>', 7305)->get()
+  387  php artisan tinker
+  388  php artisan serve
+  389  php artisn tinker
+  390  php artisan serve
+  391  HTOP
+  392  htop
+  393  sudo snap install htop
+  394  htop
+  395  mysql -uemma -p
+  396  php artisan make:mail credentials --markdown="mails.credentials"
+  397  php artisan make:mail Registration --markdown="mails.register"
+  398  php artisan serve
+  399  sudo apt install browser-plugin-freshplayer-pepperflash
+  400  mysql -uemma -p
+  401  php artisn tinker
+  402  php artisan tinker
+  403  php artisan serve
+  404  php artisan migrate
+  405  php artisan make:model Vidokezo_hatari -m
+  406  php artisan migrate
+  407  mysql -uemma -p
+  408  php artisan serve
+  409  php artisan make:model Kaswende -m
+  410  php artisan migrate
+  411  killall rhythmbox 
+  412  php artisan migrate
+  413  php artisan make:model Antenatal_pmtct -m
+  414  php artisan migrate
+  415  php artisan make:model Antenatal_malaria -m
+  416  php artisan migrate
+  417  git push origin master
+  418  sudo apt install gnome-tweak-tool 
+  419  shutdown -h now
+  420  mysql -uemma -p
+  421  ls
+  422  cd htdocs/
+  423  ls
+  424  cd fyp/
+  425  cd Manehmos2/
+  426  ls
+  427  php artisan serve
+  428  git pull origin master
+  429  php artisan serve
+  430  sudo dpkg -i code_1.24.1-1528912196_amd64.deb 
+  431  sudo mysql -u root -p
+  432  sudo systemctl restart mysql
+  433  sudo mysql -u root -p
+  434  php artisan make:migration create_visitor_table
+  435  use Illuminate\Database\Schema\Blueprint;
+  436  use Illuminate\Database\Migrations\Migration;
+  437  class CreateVisitorTable extends Migration
+  438  {     public function up()
+  439  php artisan migrate
+  440  php artisan serve
+  441  mysql -uemma -p
+  442  php artisan serve
+  443  killall telegram-desktop 
+  444  ps -u emm
+  445  ps -u emma
+  446  ps -u emmaxy
+  447  killall Telegram 
+  448  ps -u emmaxy
+  449  php artisan serve
+  450  killall mailspring 
+  451  mailspring 
+  452  yarn global add prettier/prettier prettier/plugin-php
+  453  mysql -uemma -p
+  454  php artisan serve
+  455  php artisan migrate
+  456  git push origin master
+  457  shutdown
+  458  shutdown now
+  459  mysql -uemma -p
+  460  php artisan serve
+  461  php artisan migrate
+  462  mysql -uemma -p
+  463  javac GuiAssignmentWithFile.java 
+  464  javac GuiAssignment.java 
+  465  java GuiAssignment 
+  466  javac TeachArithmeticFrame.java 
+  467  java TeachArithmeticFrame 
+  468  javac TeachArithmeticFrame.java 
+  469  java TeachArithmeticFrame 
+  470  javac TeachArithmeticFrame.java 
+  471  java TeachArithmeticFrame 
+  472  javac TeachArithmeticFrame.java 
+  473  java TeachArithmeticFrame 
+  474  javac TeachArithmeticFrame.java 
+  475  java TeachArithmeticFrame 
+  476  javac TeachArithmeticFrame.java 
+  477  java TeachArithmeticFrame 
+  478  javac TeachArithmeticFrame.java 
+  479  java TeachArithmeticFrame 
+  480  javac TeachArithmeticFrame.java 
+  481  java TeachArithmeticFrame 
+  482  javac TeachArithmeticFrame.java 
+  483  java TeachArithmeticFrame 
+  484  javac TeachArithmeticFrame.java 
+  485  java TeachArithmeticFrame 
+  486  sudo rm project 
+  487  javac TeachArithmeticFrame.java 
+  488  java TeachArithmeticFrame 
+  489  javac TeachArithmeticFrame.java 
+  490  java TeachArithmeticFrame 
+  491  javac TeachArithmeticFrame.java 
+  492  java TeachArithmeticFrame 
+  493  javac TeachArithmeticFrame.java 
+  494  java TeachArithmeticFrame 
+  495  javac TeachArithmeticFrame.java 
+  496  java TeachArithmeticFrame 
+  497  javac TeachArithmeticFrame.java 
+  498  java TeachArithmeticFrame 
+  499  javac TeachArithmeticFrame.java 
+  500  java TeachArithmeticFrame 
+  501  javac TeachArithmeticFrame.java 
+  502  java TeachArithmeticFrame 
+  503  javac TeachArithmeticFrame.java 
+  504  java TeachArithmeticFrame 
+  505  mailspring 
+  506  cd Desktop/assignment\ anna/
+  507  ls
+  508  javac TeachArithmeticFrame.java 
+  509  java TeachArithmeticFrame 
+  510  cd Desktop/assignment\ anna/
+  511  javac TeachArithmeticFrame.java 
+  512  java TeachArithmeticFrame 
+  513  javac TeachArithmeticFrame.java 
+  514  java TeachArithmeticFrame 
+  515  javac TeachArithmeticFrame.java 
+  516  java TeachArithmeticFrame 
+  517  javac TeachArithmeticFrame.java 
+  518  java TeachArithmeticFrame 
+  519  javac TeachArithmeticFrame.java 
+  520  java TeachArithmeticFrame 
+  521  javac TeachArithmeticFrame.java 
+  522  java TeachArithmeticFrame 
+  523  javac TeachArithmeticFrame.java 
+  524  java TeachArithmeticFrame ls
+  525  ls
+  526  javac TeachArithmeticFrame.java 
+  527  java TeachArithmeticFrame ls
+  528  javac TeachArithmeticFrame.java 
+  529  java TeachArithmeticFrame ls
+  530  javac TeachArithmeticFrame.java 
+  531  mysql -uemma-p
+  532  mysql -uemma -p
+  533  php artisan serve
+  534  mysql -uemma-p
+  535  mysql -uemma -p
+  536  php artisan migrate
+  537  cd Desktop/
+  538  cd assignment\ anna/
+  539  javac TeachArithmeticFrame.java 
+  540  java TeachArithmeticFrame 
+  541  javac TeachArithmeticFrame.java 
+  542  java TeachArithmeticFrame 
+  543  javac TestRandom.java 
+  544  java TestRandom 
+  545  javac TestRandom.java 
+  546  java TestRandom 
+  547  javac TestRandom.java 
+  548  java TestRandom 
+  549  javac TestRandom.java 
+  550  java TestRandom 
+  551  javac TestRandom.java 
+  552  java TestRandom 
+  553  javac TestRandom.java 
+  554  java TestRandom 
+  555  javac TeachArithmeticFrame.java 
+  556  java TeachArithmeticFrame 
+  557  javac TeachArithmeticFrame.java 
+  558  javac WithHelper.java 
+  559  java TeachArithmeticFrame 
+  560  javac WithHelper.java 
+  561  java TeachArithmeticFrame 
+  562  java TestRandom 
+  563  javac WithHelper.java 
+  564  java TestRandom 
+  565  java TeachArithmeticFrame 
+  566  javac WithHelper.java 
+  567  java TeachArithmeticFrame 
+  568  java TestRandom 
+  569  java Helper 
+  570  javac WithHelper.java 
+  571  java Helper 
+  572  javac WithHelper.java 
+  573  java TeachArithmeticFrame 
+  574  javac WithHelper.java 
+  575  java TeachArithmeticFrame 
+  576  javac TestRandom.java 
+  577  java Test 
+  578  javac WithHelper.java 
+  579  java TeachArithmeticFrame 
+  580  javac WithHelper.java 
+  581  java TeachArithmeticFrame 
+  582  cd Desktop/assignment\ anna/
+  583  javac WithHelper.java 
+  584  java TeachArithmeticFrame 
+  585  javac WithHelper.java 
+  586  java TeachArithmeticFrame 
+  587  javac WithHelper.java 
+  588  java TeachArithmeticFrame 
+  589  javac WithHelper.java 
+  590  java TeachArithmeticFrame 
+  591  javac WithHelper.java 
+  592  java TeachArithmeticFrame 
+  593  javac WithHelper.java 
+  594  java TeachArithmeticFrame 
+  595  javac WithHelper.java 
+  596  java TeachArithmeticFrame 
+  597  javac WithHelper.java 
+  598  java TeachArithmeticFrame 
+  599  javac WithHelper.java 
+  600  java TeachArithmeticFrame 
+  601  javac WithHelper.java 
+  602  java TeachArithmeticFrame 
+  603  javac WithHelper.java 
+  604  java TeachArithmeticFrame 
+  605  javac WithHelper.java 
+  606  java TeachArithmeticFrame 
+  607  javac WithHelper.java 
+  608  java TeachArithmeticFrame 
+  609  cd Desktop/assignment\ anna/
+  610  java TeachArithmeticFrame 
+  611  javac WithHelper.java 
+  612  java TeachArithmeticFrame 
+  613  javac WithHelper.java 
+  614  java TeachArithmeticFrame 
+  615  javac WithHelper.java 
+  616  java TeachArithmeticFrame 
+  617  javac TeachArithmeticFrame.java 
+  618  java TeachArithmeticFrame 
+  619  javac TeachArithmeticFrame.java 
+  620  java TeachArithmeticFrame 
+  621  javac TeachArithmeticFrame.java 
+  622  java TeachArithmeticFrame 
+  623  javac TeachArithmeticFrame.java 
+  624  java TeachArithmeticFrame 
+  625  javac TeachArithmeticFrame.java 
+  626  java TeachArithmeticFrame 
+  627  javac TeachArithmeticFrame.java 
+  628  java TeachArithmeticFrame 
+  629  javac TeachArithmeticFrame.java 
+  630  java TeachArithmeticFrame 
+  631  javac TeachArithmeticFrame.java 
+  632  java TeachArithmeticFrame 
+  633  javac TeachArithmeticFrame.java 
+  634  java TeachArithmeticFrame 
+  635  javac TeachArithmeticFrame.java 
+  636  java TeachArithmeticFrame 
+  637  javac TeachArithmeticFrame.java 
+  638  java TeachArithmeticFrame 
+  639  javac TeachArithmeticFrame.java 
+  640  java TeachArithmeticFrame 
+  641  javac TeachArithmeticFrame.java 
+  642  java TeachArithmeticFrame 
+  643  javac TeachArithmeticFrame.java 
+  644  java TeachArithmeticFrame 
+  645  javac TeachArithmeticFrame.java 
+  646  java TeachArithmeticFrame 
+  647  javac TeachArithmeticFrame.java 
+  648  java TeachArithmeticFrame 
+  649  javac TeachArithmeticFrame.java 
+  650  java TeachArithmeticFrame 
+  651  mysql -uemma -p
+  652  exit
+  653  git push origin master
+  654  php artisan serve
+  655  git push origin master
+  656  php artisan migrate
+  657  git push origin master
+  658  php artisan migrate
+  659  git push origin master
+  660  php artisan serve
+  661  git push origin master
+  662  php artisan serve
+  663  sudo a2enmod rewrite
+  664  sudo subl /etc/apache2/sites-available/000-default.conf
+  665  sudo gedit /etc/apache2/sites-available/000-default.conf
+  666  sudo systemctl restart apache2
+  667  ls
+  668  chmod -R 775 storage
+  669  cd storage/
+  670  chmod -R 775 storage
+  671  chmod -R 775 *
+  672  cd ..
+  673  sudo chmod -R 755 app/storage
+  674  sudo chmod -R 755 /storage
+  675  sudo chmod -R 755 storage
+  676  sudo chmod -R 755 bootstrap/cache/
+  677  sudo chmod -R 775 storage
+  678  sudo chmod -R 755 storage/logs/
+  679  sudo chmod -R 755 storage/logs/laravel.log 
+  680  sudo chmod -R 777 storage/logs/laravel.log 
+  681  sudo chmod -R 777 storage/
+  682  php artisan serve
+  683  cd Desktop/assignment\ anna/
+  684  javac TeachArithmeticFrame.java 
+  685  java TeachArithmeticFrame 
+  686  [A
+  687  java TeachArithmeticFrame 
+  688  [A
+  689  javac TeachArithmeticFrame.java 
+  690  java TeachArithmeticFrame 
+  691  javac TeachArithmeticFrame.java 
+  692  java TeachArithmeticFrame 
+  693  javac TeachArithmeticFrame.java 
+  694  java TeachArithmeticFrame \
+  695  java TeachArithmeticFrame
+  696  javac TeachArithmeticFrame.java 
+  697  java TeachArithmeticFrame
+  698  javac TeachArithmeticFrame.java 
+  699  java TeachArithmeticFrame
+  700  javac TeachArithmeticFrame.java 
+  701  java TeachArithmeticFrame
+  702  javac TeachArithmeticFrame.java 
+  703  java TeachArithmeticFrame
+  704  javac TeachArithmeticFrame.java 
+  705  java TeachArithmeticFrame
+  706  javac TeachArithmeticFrame.java 
+  707  java TeachArithmeticFrame
+  708  javac TeachArithmeticFrame.java 
+  709  java TeachArithmeticFrame
+  710  mysql -uemma -p
+  711  exit
+  712  mysql -uemma -p
+  713  php artisan migrate
+  714  php artisan serve
+  715  sudo apt-get install pdftk
+  716  rm -r df/
+  717  rm -r System\ Volume\ Information/
+  718  sudo rm -r MEGA/
+  719  sudo rm -r Meshack\ backup/
+  720  rm -r vendor/
+  721  php artisan serve
+  722  lsblk
+  723  fsck /dev/sdXY -sda1
+  724  fsck /dev/sdXY sda1
+  725  fsck /dev/sda1 -y
+  726  lsblk
+  727  fsck /dev/sdb1 -y
+  728  sudo fsck /dev/sdb1 -y
+  729  sudo fsck /dev/sdb2 -y
+  730  sudo fsck /dev/sdb3 -y
+  731  sudo fsck /dev/sdb1 -y
+  732  sudo fsck -fn /dev/sdb1
+  733  sudo fsck -fn /dev/sdb3
+  734  sudo fsck -fn /dev/sdb1
+  735  e4defrag /dev/sdb1 
+  736  e4defrag /dev/sdb3 
+  737  php artisan update
+  738  php artisan upgrade
+  739  php artisan help
+  740  php artisan list
+  741  php artisan view:clear
+  742  php artisan serve
+  743  php artisan clear-compiled
+  744  php artisan serve
+  745  git push origin master
+  746  javac TeachArithmeticFrame.java 
+  747  java TeachArithmeticFrame
+  748  javac TeachArithmeticFrame.java 
+  749  java TeachArithmeticFrame
+  750  javac TeachArithmeticFrame.java 
+  751  java TeachArithmeticFrame
+  752  lsblk
+  753  php artisan serve
+  754  php artisan db:seed
+  755  php artisa dump:autoload
+  756  php artisan dump:autoload
+  757  composer dump-autoload
+  758  git push origin master
+  759  git init
+  760  git add * -f
+  761  git push -u origin master
+  762  history > emmaer
